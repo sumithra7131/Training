@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button{
+            background-color: green;
+             color:darkmagenta;
+        }
+        p:nth-child(even){
+            color: blue;
+        }
+        .button:hover{
+            background-color:greenyellow;
+            height: 40px;
+            border: none;
+            border-radius: 20px;
+        }
+#input-name:focus{
+    border:2px solid red;
+    outline: no;
+}
+.paragraph::first-letter{
+    color: cadetblue;
+    font-weight: 100;
+}
+p::before{
+    content: "🙂";
+}
+p{
+    color: seagreen !important; 
+}
+.paragraph{
+    position:fixed;
+    top: 100px;
+    background-color: black;
+
+}
+    </style>
+</head>
+<body>
+   <button class="button">
+this is button
+   </button> 
+   <input type="text name="" id="input">
+      <div>
+   <p>p1</p>
+   <p>p2</p>
+   <p>p3</p>
+   <p>p4</p>
+   </div>
+   <p class="paragraph">
+    A highly motivated software engineer seeking to get a position in a reputed company, where I can use my skills and knowledge to learn new things and grow as a software developer.I hereby declare that all the information provided above is accurate to the best of my knowledge. 
+   </p>
+   <p class="parent-para">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta recusandae minus aspernatur atque in qui perspiciatis, molestias animi vel. Nostrum cupiditate delectus facere cum iusto. Suscipit velit maiores neque quasi.
+   </p>
+   <p class="big-para">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab eum porro consequuntur amet cum, placeat nulla cumque assumenda. Rem deleniti repellendus earum molestias placeat nam nihil consectetur labore odio et.
+    A highly motivated software engineer seeking to get a position in a reputed company, where I can use my skills and knowledge to learn new things and grow as a software developerI hereby declare that all the information provided above is accurate to the best of my knowledge. .
+   </p>
+
+</div>
+</body>
+</html>
